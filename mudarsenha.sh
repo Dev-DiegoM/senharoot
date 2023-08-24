@@ -1,6 +1,3 @@
-#!/bin/bash
-# Noob sofre
-# nego não sabe entrar como Usuário root
 clear
 [[ "$(whoami)" != "root" ]] && {
 	clear
@@ -39,4 +36,4 @@ echo -e "\n\033[1;31mCuidado para nao errar novamente\033[0m"
 exit 0
 }
 echo "root:$senha" | chpasswd
-echo -e "\n\033[1;31m[ \033[1;33mSenha root redefinida com sucesso \033[1;31m]\033[1;37m - \033[1;32Salve muito bem ela. \033[0m"
+echo -e "\n\033[1;31m[ \033[1;33mSenha root redefinida com sucesso \033[1;31m]\033[1;37m - \033[1;32mSalve muito bem ela. \033[0m"
